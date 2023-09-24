@@ -1,0 +1,77 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the navigation bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px;
+}
+
+/* Style the logo */
+.navbar-brand img {
+    max-width: 100px;
+}
+
+/* Style the navigation items */
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+/* Style individual list items */
+.navbar-nav li {
+    margin-right: 20px;
+}
+
+/* Style the "Be a Sponsor" button */
+.navbar-nav .be-sponsor-button button {
+    background-color: green;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border border-radius: 20px;
+}
+
+/* Style the "Donate Now" button */
+.navbar-nav .donate-button button {
+    background-color: blue;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.saylani{
+ color: green;
+}
+/* .h1 .main div{
+    display:flex;
+}
+.header image.main div{
+    display:flex;
+} */
+.header-image{
+    width:80%;
+}
+/* Style the button */
+.button button {
+
+    color: black; /* Text color */
+    border: none;
+    padding: 15px 30px; /* Adjust padding as needed */
+    margin: 10px; /* Adjust margin as needed */
+    cursor: pointer;
+    width:auto; /* Adjust width as needed or use "auto" for dynamic width */
+}
+.icons icons{
+    margin:50px;
+    padding:50px;
+}
